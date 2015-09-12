@@ -40,7 +40,7 @@ class Matrix : public ObjectWrap {
         static void Size(const FunctionCallbackInfo<Value>& args);
 
         static Persistent<Function> constructor;
-        MatrixXd *value_;
+        MatrixXd* value_;
 };
 
 }
